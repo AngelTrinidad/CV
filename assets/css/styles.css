@@ -21,6 +21,10 @@ div.container{
     height: auto;
     margin: 0 auto;
 }
+a{
+    text-decoration: none;
+    color: #8a8a8b;
+}
 
 .row{
     width: 100%;
@@ -66,6 +70,7 @@ div.container{
 
 .titulo{
     margin-bottom: 50px;
+    font-size: 40px;
 }
 
 .subtitulo{
@@ -199,4 +204,16 @@ footer{
 .social-icon{
     width: 30px;
     margin: 0 5px;
+}
+
+.img-ref{
+    width: 100%;
+    margin: 10px 0px;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.content-img{
+    padding: 10px;
 }
