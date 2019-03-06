@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:600');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #e3e3e3;
+    color: #8a8a8b;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+div.container{
+    width: 1120px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.row{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.col-1{
+    width: 20%;
+}
+
+.col-2{
+    width: 40%;
+}
+
+.col-3{
+    width: 60%;
+}
+
+.col-4{
+    width: 80%;
+}
+
+.col-5{
+    width: 100%;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.gris-oscuro{
+    color: #646464;
+}
+
+.titulo{
+    margin-bottom: 50px;
+}
+
+.subtitulo{
+    margin-bottom: 50px;
+}
+
+.text-big{
+    font-size: 100px !important;
+}
+
+.sombra{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+nav{
+    width: 100%;
+    height: auto;
+    background: #3498db;
+    overflow: hidden;
+    position: fixed;
+    z-index: 11;
+}
+
+ul{
+    list-style: none;
+    text-align: right;
+    padding: 15px 0;
+}
+
+ul#menu li{
+    display: inline-block;
+    margin: 0 30px;
+    height: 22px;
+}
+
+.alt-font{
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul#menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    transition: .5s;
+}
+
+ul#menu li a:hover{
+    letter-spacing: 2px;
+    color:#f1c40f;
+    transition: .5s;
+}
+
+ul#menu li a:active{
+    letter-spacing: 2px;
+    color:#f1c40f;
+    transition: .5s;
+}
+
+.active-menu{
+    letter-spacing: 2px !important;
+    color:#f1c40f !important;
+}
+
+div.caja{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 100px 50px 50px;
+    background: #fff;
+    margin-top: -125px;
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+div.perfil{
+    width: 150px;
+    height: 150px;
+    margin: 75px auto 50px auto;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    position: relative;
+    z-index: 10;
+}
+
+div.perfil img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+div.about p{
+    padding: 20px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+section{
+    width: 100%;
+    height: auto;
+    padding: 120px 0px;
+    overflow: hidden;
+}
+
+.info{
+    width: 100%;
+    height: auto;
+    padding: 100px 20%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    overflow: hidden;
+    background: #fff;
+}
+
+.year h3{
+    
+    font-size: 40px;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 50px 0;
+    background: #3498db;
+    color: #fff;
+}
+
+.social-icon{
+    width: 30px;
+    margin: 0 5px;
+}
