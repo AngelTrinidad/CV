@@ -1,3 +1,3 @@
 # CV
 A resume about me
-This is the link of my website: [a link](https://angeltrinidad.github.io/CV/)
+You can go to my website [here](https://angeltrinidad.github.io/CV/)
